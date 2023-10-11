@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 
-import { UserContext } from '../../contexts/UserContext';
+import { AuthContext } from '../../contexts/AuthContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 function Home() {
-  const { nome, setNome } = useContext(UserContext);
+  const { nome, setNome } = useContext(AuthContext);
 
   return (
     <div className='flex justify-center items-center'>
