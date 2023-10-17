@@ -13,7 +13,10 @@
     "@phosphor-icons/react": "^2.0.13",
     "axios": "^1.5.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.4.5",
+    "react-router-dom": "^6.17.0",
+    "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
